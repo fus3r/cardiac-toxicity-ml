@@ -1,0 +1,68 @@
+# ---------------------------------------------------------------------------
+# Environnements Python
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipython/
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Fichiers système / éditeur
+# ---------------------------------------------------------------------------
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# Données confidentielles (cohorte FCCSS) — ne JAMAIS versionner
+# Elles restent présentes en local mais ne doivent pas entrer dans l'historique.
+# ---------------------------------------------------------------------------
+data/*.csv
+data/coeur_1k/
+data/coeur_1k_petit/
+legacy/data/
+legacy/**/*.csv
+
+# ---------------------------------------------------------------------------
+# Sorties volumineuses du recalage 3D (régénérables par le pipeline)
+# ---------------------------------------------------------------------------
+rescaling/ants_csv_projected/
+rescaling/ants_csv_transformed/
+rescaling/original_csv_projected/
+rescaling/best_score_csv/
+rescaling/mask_csv_projected/
+rescaling/*_projected.csv
+rescaling/dosi_coeur_*.csv
+rescaling/images/
+rescaling/images_pres/
+
+# ---------------------------------------------------------------------------
+# Caches et artefacts Deep Learning (régénérables)
+# ---------------------------------------------------------------------------
+DL/cache/
+DL/figures/
+*.npz
+*.npy
+
+# ---------------------------------------------------------------------------
+# Figures régénérables
+# (les figures-clés sélectionnées sont, elles, versionnées dans reports/figures/)
+# ---------------------------------------------------------------------------
+EDA/figures/
+
+# ---------------------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------------------
+*.log

@@ -1,0 +1,22 @@
+PROJET P15 — Prédiction des toxicités cardiaques après radiothérapie thoracique
+Tous droits réservés.
+
+Copyright (c) 2026, équipe Pôle Projet P15 — CentraleSupélec.
+Encadrement : Rodrigue Allodji (INSERM / Gustave Roussy), cohorte FCCSS.
+
+Ce dépôt est un livrable académique encadré. Il n'est pas distribué sous licence
+libre.
+
+Données
+-------
+Les données cliniques et dosimétriques exploitées proviennent de la cohorte FCCSS
+(French Childhood Cancer Survivors Study) et sont strictement confidentielles.
+Leur usage est limité au cadre académique de ce projet, conformément aux
+autorisations CNIL applicables. Elles ne doivent être ni diffusées, ni publiées,
+ni réutilisées à d'autres fins. Aucune donnée patient n'est versionnée dans ce
+dépôt.
+
+Code
+----
+Le code source ne peut être réutilisé, copié ou redistribué sans l'accord
+préalable des auteurs et de l'encadrant.

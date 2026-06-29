@@ -1,0 +1,3 @@
+# Language statistics: treat the exploratory notebooks as documentation so the
+# repository language bar reflects the Python code rather than notebook JSON.
+*.ipynb linguist-documentation

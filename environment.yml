@@ -1,0 +1,11 @@
+# Environnement conda — Projet P15
+# Création : conda env create -f environment.yml
+# Activation : conda activate pipeline-p15
+name: pipeline-p15
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - -r requirements.txt

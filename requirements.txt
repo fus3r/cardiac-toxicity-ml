@@ -1,0 +1,42 @@
+# Dépendances Python — Projet P15
+# Prédiction de cardiotoxicité radio-induite (cohorte FCCSS)
+# Python 3.13 — installation : pip install -r requirements.txt
+
+# --- Calcul scientifique ---
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.15.3
+
+# --- Machine learning ---
+scikit-learn==1.8.0
+scikit-optimize==0.10.2
+statsmodels==0.14.6
+
+# --- Analyse de survie ---
+lifelines==0.30.3
+
+# --- Deep learning ---
+torch==2.12.0
+monai==1.5.2
+
+# --- Recalage 3D des matrices de dose ---
+antspyx==0.6.3
+pycpd==2.0.0
+
+# --- Visualisation ---
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.6.0
+kaleido==1.2.0
+pillow==12.1.1
+
+# --- Utilitaires ---
+joblib==1.5.3
+tqdm==4.68.1
+
+# --- Notebooks ---
+jupyterlab==4.5.6
+ipykernel==7.2.0
+ipywidgets==8.1.8
+nbconvert==7.17.0
+nbformat==5.10.4
